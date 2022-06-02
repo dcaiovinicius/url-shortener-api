@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import URLController from "./Controllers/URLController";
+import URLController from "./controllers/URLController";
 import MogooseConnect from "./database";
 
 const database = new MogooseConnect();
